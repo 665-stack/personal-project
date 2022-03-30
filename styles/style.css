@@ -1,0 +1,22 @@
+body{
+    background-color: #ffffff;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+p, span, strong, a, input, textarea, li{
+    font-family: 'Cambay', sans-serif;
+}
+/* navbar */
+.navbar{
+    background-color: rgb(110, 107, 107);
+}
+.logo-text{
+    color: rgb(44, 42, 42);
+}
+.navbar li:hover{
+    color: white;
+    background-color: rgb(109, 98, 98);
+    border-radius: 4px;
+    
+}
