@@ -19,6 +19,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Nanum+Pen+Script&family=Open+Sans&display=swap"
         rel="stylesheet">
+    <!-- fontawesome cdn -->
+    <script src="https://kit.fontawesome.com/05678147da.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -28,7 +30,7 @@
           <header>
      ------------------>
 
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="home">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <strong class="logo-text">Mahmodul Shahin</strong>
@@ -43,7 +45,7 @@
                         <a class="nav-link text-dark active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item fw-bold  px-3">
-                        <a class="nav-link text-dark" href="#">About Me</a>
+                        <a class="nav-link text-dark" href="#about">About Me</a>
                     </li>
                     <li class="nav-item fw-bold  px-3">
                         <a class="nav-link text-dark" href="#contact">Contact</a>
@@ -57,18 +59,39 @@
            main
      --------------->
     <main class="container py-5 mt-5">
-        <section class="row">
+        <section id="about" class="row">
             <div class="col-sm-12 col-lg-6">
-                <img src="images/dev.png" alt="">
+                <img id="me" class="img-fluid pt-5 pb-5" src="images/from-picresize.jpg" alt="">
             </div>
             <div id="about" class="col-sm-12 col-lg-6 mt-lg-5 pt-lg-5 p-5">
                 <h1> Hi! I'm Mahmodul Shahin.</h1>
                 <p> Who loves to explore new things. I love to
                     play with
                     coding,
-                    building websites, and exploring new technologies. Currently learning <strong>React JS</strong>.</p>
+                    building websites, and exploring new technologies. Currently learning <strong>React JS</strong>.
+                </p>
                 <p>By the way, I'm very hopeful about <i>Web 3.0</i>. </p>
             </div>
+        </section>
+        <!-- social links -->
+        <section id="contact" class="mt-5 mb-5">
+            <div class="contact-links">
+                <h2>Reach Out Me</h2>
+                <hr class="dotted-hr">
+                <div class="media-buttons">
+                    <button class="btn" onclick="window.open('https://youtube.com/channel/UCTW9m_oGPk2us5MEGqPzuPg')"
+                        class="request-callback"> <i id="icon" class="fab fa-youtube"
+                            style="color:#c4302b"></i></button>
+                    <button class="btn" onclick="window.open('https://www.facebook.com/shake.shahin.96') "><i id="icon"
+                            class="fab fa-facebook" style="color:#3b5998"></i></button>
+                    <button class="btn" onclick="window.open('https://twitter.com/ShahinMahmodul?s=09')"> <i id="icon"
+                            class="fab fa-twitter" style="color:#00acee"></i></button>
+                    <button class="btn" onclick="window.open('https://github.com/665-stack')"><i id="icon"
+                            class="fab fa-github" style="color:#464646"></i></button>
+                    <button class="btn" onclick="window.open('https://www.linkedin.com/in/mahmodul-shahin-7b5224232/')">
+                        <i id="icon" class="fab fa-linkedin" style="color:#0e76a8"></i></button>
+
+                </div>
         </section>
     </main>
     <!-----------

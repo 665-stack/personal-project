@@ -25,8 +25,13 @@ p, span, strong, a, input, textarea, li{
     border-radius: 4px;
 }
 /* main */
-main{
+#me{
+    width: 80%;
     
+    
+}
+#icon{
+    font-size: 30px;
 }
 /* footer */
 footer {
