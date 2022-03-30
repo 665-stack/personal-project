@@ -26,11 +26,11 @@ p, span, strong, a, input, textarea, li{
 }
 /* main */
 #me{
-    width: 80%;
-    
-    
+    width: 90%;
+    padding-left: 30px;
 }
 #icon{
+    width: 100%;
     font-size: 30px;
 }
 /* footer */
